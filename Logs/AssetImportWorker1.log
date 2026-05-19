@@ -1,0 +1,690 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.15f1 (c1aa84e375f6) revision 12692100'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 16068 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Nguyen Phu Thinh" at "2026-05-19T00:59:30.4962169Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-05-19T00:59:30Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/DELL/Desktop/PRU-G8/Nhom8_Desert_UAV_Perception
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+63710
+-licensingIpc
+LicenseClient-Nguyen Phu Thinh
+-job-worker-count
+9
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/DELL/Desktop/PRU-G8/Nhom8_Desert_UAV_Perception
+C:/Users/DELL/Desktop/PRU-G8/Nhom8_Desert_UAV_Perception
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [26428]  Target information:
+
+Player connection [26428]  * "[IP] 172.20.160.1 [Port] 0 [Flags] 2 [Guid] 4028963946 [EditorId] 4028963946 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FQ4QITS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26428]  * "[IP] 10.33.65.33 [Port] 0 [Flags] 2 [Guid] 4028963946 [EditorId] 4028963946 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FQ4QITS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26428] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [26428] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.15f1 (c1aa84e375f6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/DELL/Desktop/PRU-G8/Nhom8_Desert_UAV_Perception/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7956 MB
+    Driver:   32.0.15.9621
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002316 seconds.
+- Loaded All Assemblies, in  0.594 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Nguyen Phu Thinh"
+[Licensing::IpcConnector] LicenseClient-Nguyen Phu Thinh channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Nguyen Phu Thinh-6000.3.15" at "2026-05-19T00:59:32.4579131Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 13360, path: "C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              dc2f9480a0df4353bf33d117529a6eba
+  Correlation Id:          f71cdd375c9aa772c9d90da80cf6d94a
+  External correlation Id: 849858166397858459
+  Machine Id:              cBvdUc4XkQjr9ka2JTylx7btFWQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Nguyen Phu Thinh-6000.3.15" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Nguyen Phu Thinh-6000.3.15-notifications" at "2026-05-19T00:59:32.467319Z"
+[Licensing::Module] Licensing Background thread has ended after 1.97s
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.605 seconds
+Domain Reload Profiling: 1195ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (256ms)
+		LoadAssemblies (190ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (251ms)
+			TypeCache.Refresh (249ms)
+				TypeCache.ScanAssembly (230ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (606ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (562ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (69ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (166ms)
+			ProcessInitializeOnLoadAttributes (199ms)
+			ProcessInitializeOnLoadMethodAttributes (120ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968323347777-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.383 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.463 seconds
+Domain Reload Profiling: 844ms
+	BeginReloadAssembly (261ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (16ms)
+		LoadAssemblies (159ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (2ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (464ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (333ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (150ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (28.5 KB). Loaded Objects now: 655.
+Memory consumption went from 64.0 MB to 64.0 MB.
+Total: 5.414000 ms (FindLiveObjects: 0.045400 ms CreateObjectMapping: 0.009400 ms MarkObjects: 5.278000 ms  DeleteObjects: 0.079900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 34522.872905 seconds.
+  path: Assets/Settings/DefaultVolumeProfile.asset
+  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '34da75a9c84107b467986db38d33c098') in 0.084103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a6976b95afa926ca52698f669aa7927') in 0.0190186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Settings/PC_Renderer.asset
+  artifactKey: Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/PC_Renderer.asset using Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '93706a4a27d7a9c25fda3e4557ea3ddd') in 0.0175269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d52e11430e7d63988f2a3459d71f086') in 0.0220374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '736a1a9576ae47b46fc7c54bbb1de283') in 0.0204333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Settings/Mobile_RPAsset.asset
+  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c4932ac4ebd4f72792220698c54aad8a') in 0.0172842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Settings/Mobile_Renderer.asset
+  artifactKey: Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/Mobile_Renderer.asset using Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '861c207999b759b110ce999effc2ce93') in 0.0135265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 222.439136 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '092f7974db3fb175701bdf9959c1e23b') in 0.000769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 280.180941 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(ddb7cd812100c044db1f1520ce1cd3cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/New Terrain 1.asset using Guid(ddb7cd812100c044db1f1520ce1cd3cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ca68276a0098182bb52595b786ec4eeb') in 0.0421624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 436.586497 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Meshes/Cactus_01.fbx
+  artifactKey: Guid(12ded5a97b3dac745bb4d8737c5368b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Meshes/Cactus_01.fbx using Guid(12ded5a97b3dac745bb4d8737c5368b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0535eb952236a4567e0545bb13785fed') in 0.1106974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/CliffCorner_01.prefab
+  artifactKey: Guid(d327e911ab1b78b47af2995004d611ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/CliffCorner_01.prefab using Guid(d327e911ab1b78b47af2995004d611ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bfc8a81c78247f55ee67a0b0e3e899a9') in 0.0233699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Meshes/Rock_04.fbx
+  artifactKey: Guid(556df98b183ba8840b1345200723fc1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Meshes/Rock_04.fbx using Guid(556df98b183ba8840b1345200723fc1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3e666476645c409e6137affc01fb684e') in 0.0219045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Demo/DemoScene/Lightmap-2_comp_light.exr
+  artifactKey: Guid(e1c1a78b79bdf2741b2dd27cf2bb94a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Demo/DemoScene/Lightmap-2_comp_light.exr using Guid(e1c1a78b79bdf2741b2dd27cf2bb94a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e76d3e7a6d055613f2786ea21e802e44') in 0.0721564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Demo/DemoScene/Lightmap-2_comp_dir.png
+  artifactKey: Guid(597924298b746e445824f632f39404ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Demo/DemoScene/Lightmap-2_comp_dir.png using Guid(597924298b746e445824f632f39404ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fbb57eb7ce4be52fdb3b95e601edb960') in 0.0281431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Meshes
+  artifactKey: Guid(8074dfd6fe613a944978a50728a7f4db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Meshes using Guid(8074dfd6fe613a944978a50728a7f4db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '65a5bba8a7a392f17f727f504ab1f485') in 0.0260788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/LICENSE.txt
+  artifactKey: Guid(661624c7851bf624a99c694fe719130b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/LICENSE.txt using Guid(661624c7851bf624a99c694fe719130b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f90603704dc26601c79d810162114d12') in 0.0137806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Demo/DemoScene/ReflectionProbe-0.exr
+  artifactKey: Guid(6625a924428bf004f9a4576221f62a89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Demo/DemoScene/ReflectionProbe-0.exr using Guid(6625a924428bf004f9a4576221f62a89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5508a135767e5fc4bf92f6148bb95b38') in 0.0216008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment
+  artifactKey: Guid(0e44f94836b20804dbf6bfde38f52bba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment using Guid(0e44f94836b20804dbf6bfde38f52bba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '257cb335814d5f018f051131d8954efe') in 0.0189246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Rock_03.prefab
+  artifactKey: Guid(99c4ddb9d4ff2244db6f3b6eaba79d42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Rock_03.prefab using Guid(99c4ddb9d4ff2244db6f3b6eaba79d42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c73d7e9ee71f9a523d5cb8b510a264df') in 0.0228443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Rock_05.prefab
+  artifactKey: Guid(3d672b1b497d64e48aa47e37b86514bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Rock_05.prefab using Guid(3d672b1b497d64e48aa47e37b86514bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '75faaddced26b0df56945d470597b6fd') in 0.0246718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Cactus_02.prefab
+  artifactKey: Guid(5d223c23da531c84c83fd2b2ce070415) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Cactus_02.prefab using Guid(5d223c23da531c84c83fd2b2ce070415) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e66c6b8069fcfeb6757bc0da7f96d80d') in 0.0273286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Cactus_01.prefab
+  artifactKey: Guid(1be39fcd789ade9419877e7e63b05a10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Cactus_01.prefab using Guid(1be39fcd789ade9419877e7e63b05a10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5287cc62b31ee8a9eb7205c6101d860f') in 0.0199984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/CliffCorner_02.prefab
+  artifactKey: Guid(112afbe6bf4e32740ae60ed7f3d85e1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/CliffCorner_02.prefab using Guid(112afbe6bf4e32740ae60ed7f3d85e1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ff5ebd720933244d6e123e75d0940938') in 0.0217307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Meshes/Rock_02.fbx
+  artifactKey: Guid(81f20bfb3dbff76489c957bdd927b0e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Meshes/Rock_02.fbx using Guid(81f20bfb3dbff76489c957bdd927b0e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '47c4467a7728957a3c6619b2bfe24abf') in 0.0210509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Materials/Palette.png
+  artifactKey: Guid(d5d973700f8447c47bd686d39e5181ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Materials/Palette.png using Guid(d5d973700f8447c47bd686d39e5181ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8a245c7b31a616bf225cce50e97649d6') in 0.0299878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Meshes/CliffCorner_01.fbx
+  artifactKey: Guid(05322a4cbf64c6247abf4977fc89a050) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Meshes/CliffCorner_01.fbx using Guid(05322a4cbf64c6247abf4977fc89a050) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '31a0854dda49b8d122f0e188bcccf10c') in 0.022513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Demo/DemoScene/Lightmap-0_comp_dir.png
+  artifactKey: Guid(85c61788b58baab47a1cbeaf984c234d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Demo/DemoScene/Lightmap-0_comp_dir.png using Guid(85c61788b58baab47a1cbeaf984c234d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '83f0b0cccae74041726aa50ea16c5ed7') in 0.0226181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Meshes/Cliff_01.fbx
+  artifactKey: Guid(43b5e7a74f9a76a4da28ec63b62380c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Meshes/Cliff_01.fbx using Guid(43b5e7a74f9a76a4da28ec63b62380c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd7b339d9fff32ff638d3f2738f6761d2') in 0.0197038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Ground_01.prefab
+  artifactKey: Guid(a7453cde4b8d357428d724a16d17ba27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Ground_01.prefab using Guid(a7453cde4b8d357428d724a16d17ba27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7cb2a52d0232f7f4ffc5df1035bcf1f4') in 0.0206907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Demo
+  artifactKey: Guid(9c53962885c2c4f449125a979d6ad240) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Demo using Guid(9c53962885c2c4f449125a979d6ad240) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3529e86ddda5818ec7f2bdcb9276f42b') in 0.0121477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Demo/DemoScene_Profiles
+  artifactKey: Guid(5182919c09b9ac54590d1570cefc4034) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Demo/DemoScene_Profiles using Guid(5182919c09b9ac54590d1570cefc4034) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dc304603eb876fbe59131db8911db0ac') in 0.0129859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Rock_04.prefab
+  artifactKey: Guid(b897b91def57a2940a0f0042d364c50d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Rock_04.prefab using Guid(b897b91def57a2940a0f0042d364c50d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6a4560519cc11350da3fabb975965e06') in 0.0190222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Demo/DemoScene
+  artifactKey: Guid(13072da43eba52947b2fb9b415193453) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Demo/DemoScene using Guid(13072da43eba52947b2fb9b415193453) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '442def79657d577b28226ee73839492b') in 0.0143428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Meshes/Ground_01.fbx
+  artifactKey: Guid(522fa0e85f9091846822ca01c0d8de71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Meshes/Ground_01.fbx using Guid(522fa0e85f9091846822ca01c0d8de71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ad6cca6adc61271653e27c7dccc86ad') in 0.0189552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.243736 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(a6cb17a0fb69fc747b9ddccb08867708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(a6cb17a0fb69fc747b9ddccb08867708) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ccb688099c2e65ba4b030c3e55035fb') in 0.0006074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.236216 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment
+  artifactKey: Guid(0e44f94836b20804dbf6bfde38f52bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment using Guid(0e44f94836b20804dbf6bfde38f52bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ddecb836d7c353b107ac6d64874d0b9') in 0.0006282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.845888 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Materials/Palette.png
+  artifactKey: Guid(d5d973700f8447c47bd686d39e5181ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Materials/Palette.png using Guid(d5d973700f8447c47bd686d39e5181ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38fff5aad597ce2eeb66e09afd907477') in 0.0740643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.619805 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Meshes/Cactus_01.fbx
+  artifactKey: Guid(12ded5a97b3dac745bb4d8737c5368b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Meshes/Cactus_01.fbx using Guid(12ded5a97b3dac745bb4d8737c5368b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab4302fa843203f7a270c08a9bdc80c0') in 0.2006613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.181526 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Cactus_01.prefab
+  artifactKey: Guid(1be39fcd789ade9419877e7e63b05a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Cactus_01.prefab using Guid(1be39fcd789ade9419877e7e63b05a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0027d285d210e09e39affca7c52aa5f') in 0.0343331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.305930 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Cactus_01.prefab
+  artifactKey: Guid(1be39fcd789ade9419877e7e63b05a10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Cactus_01.prefab using Guid(1be39fcd789ade9419877e7e63b05a10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e1f619ae3fe45931f7f93d8b6669861') in 0.0273222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.208431 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Meshes/Cactus_02.fbx
+  artifactKey: Guid(cb0d76b637ba4cd4a8e715a99eb23ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Meshes/Cactus_02.fbx using Guid(cb0d76b637ba4cd4a8e715a99eb23ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e8c552e2940dce80c89c0bd066cb003') in 0.036918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.451255 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Cactus_02.prefab
+  artifactKey: Guid(5d223c23da531c84c83fd2b2ce070415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Cactus_02.prefab using Guid(5d223c23da531c84c83fd2b2ce070415) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76c1c6c03f004391b63ed7ff021f4dd1') in 0.0267763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.670733 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Cactus_03.prefab
+  artifactKey: Guid(8f4c3e46fdfe6bc468404f48cba54991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Cactus_03.prefab using Guid(8f4c3e46fdfe6bc468404f48cba54991) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e790201d8ce708a763cf5518cb1ce83') in 0.0248731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.906324 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/CliffCorner_01.prefab
+  artifactKey: Guid(d327e911ab1b78b47af2995004d611ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/CliffCorner_01.prefab using Guid(d327e911ab1b78b47af2995004d611ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecf12b7963811578651819e30c6b8ea4') in 0.0309312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.040958 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/CliffCorner_02.prefab
+  artifactKey: Guid(112afbe6bf4e32740ae60ed7f3d85e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/CliffCorner_02.prefab using Guid(112afbe6bf4e32740ae60ed7f3d85e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06d6c79a741d868a124e3a6bb385f216') in 0.0277325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.560261 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Cliff_01.prefab
+  artifactKey: Guid(125f7efe8f91aff4abd37bd1d4e5970f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Cliff_01.prefab using Guid(125f7efe8f91aff4abd37bd1d4e5970f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47dfdd36a7b50420129d861645e4a97e') in 0.0258474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.350770 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Rock_01.prefab
+  artifactKey: Guid(db21cd8e08e0814498a2711e0b6ed107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Rock_01.prefab using Guid(db21cd8e08e0814498a2711e0b6ed107) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '499183ef84e091a0e81053592cf4eafa') in 0.032591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.665506 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Ground_01.prefab
+  artifactKey: Guid(a7453cde4b8d357428d724a16d17ba27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Ground_01.prefab using Guid(a7453cde4b8d357428d724a16d17ba27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fde9bd2f30d26f08c2d181283873ae2') in 0.0274637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.545624 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Materials/Mat_01.mat
+  artifactKey: Guid(cb1b3563d3837304a9855da8536b8020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Materials/Mat_01.mat using Guid(cb1b3563d3837304a9855da8536b8020) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22817a9b8caf94542fe03652aa4091b1') in 0.0543243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.325422 seconds.
+  path: Assets/New Terrain 2.asset
+  artifactKey: Guid(8aa380471a85a9d4eaa99066170514be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/New Terrain 2.asset using Guid(8aa380471a85a9d4eaa99066170514be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '103c345c9ab86b229cc808b929a653fa') in 0.0405834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 341.242249 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Materials
+  artifactKey: Guid(ae0fab19d06556246bd1b1c67d093771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Materials using Guid(ae0fab19d06556246bd1b1c67d093771) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62d77b1e14901eae6907e5cf181d52f2') in 0.0008914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.574991 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Demo/DemoScene/Lightmap-0_comp_dir.png
+  artifactKey: Guid(85c61788b58baab47a1cbeaf984c234d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Demo/DemoScene/Lightmap-0_comp_dir.png using Guid(85c61788b58baab47a1cbeaf984c234d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c4e8bd67db334967d37e32df8722f3e') in 0.0241702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.053699 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Demo/DemoScene/LightingData.asset
+  artifactKey: Guid(3234d2cd97bf21f4dbf02f66d2efa571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Demo/DemoScene/LightingData.asset using Guid(3234d2cd97bf21f4dbf02f66d2efa571) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '184eb9641015e71e8adedbca53345264') in 0.0011251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.399833 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Demo/DemoScene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(735c86a2bb8206442a7686189009bdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Demo/DemoScene/Lightmap-0_comp_light.exr using Guid(735c86a2bb8206442a7686189009bdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e067975b371d88bfa8a75029f9ab4fce') in 0.0327663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 605.568277 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Cactus_01.prefab
+  artifactKey: Guid(1be39fcd789ade9419877e7e63b05a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Cactus_01.prefab using Guid(1be39fcd789ade9419877e7e63b05a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3a9ae9455055269fa66d0a56a6a7c10') in 0.0166613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 153.422619 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Rock_05.prefab
+  artifactKey: Guid(3d672b1b497d64e48aa47e37b86514bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Rock_05.prefab using Guid(3d672b1b497d64e48aa47e37b86514bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61244f48405d71a6f3d0d401101119ec') in 0.0335392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.272134 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs
+  artifactKey: Guid(19b7644dc453c334b822cc82a34889b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs using Guid(19b7644dc453c334b822cc82a34889b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c9dc4214be83739306a99cc383231d6') in 0.0005537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.155983 seconds.
+  path: Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Rock_04.prefab
+  artifactKey: Guid(b897b91def57a2940a0f0042d364c50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny Teacup Studio/Low Poly Desert Environment/Prefabs/Rock_04.prefab using Guid(b897b91def57a2940a0f0042d364c50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fa1e166fbe173249a152a15055edc39') in 0.0206529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
